@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+	float a,b,c,d,x,x1,x2;
+	printf("Resolution d'equation du type ax^2+bx+c");
+	printf("Entrer a,b et c puis apppuyez sur entrer\n");
+	scanf("%f", &a);
+	scanf("%f", &b);
+	scanf("%f", &c);
+	d = b*b -4*a*c;	
+	if(d < 0){
+			printf("tsisi valiny zandjy ahhh = %f\n", d);}
+		else {
+				if (d == 0){ x = -b /(2*a); printf("Une seule solution %f\n",x);}
+				else {
+					   x1 = (-b-sqrt(d))/(2*a);
+					   x2 = (-b+sqrt(d))/(2*a);
+				printf("Deux solutions x'= %f et x\" = %f\n",x1,x2);}
+				  }
+    return 0;
+}
+   
+    
+	

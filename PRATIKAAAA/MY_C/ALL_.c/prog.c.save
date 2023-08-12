@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main(){
+	printf("Résolution de l'equation ax²+bx+c=0\n");
+	float a,b,c,d,x,x1,x2;
+	
+	return 0;
+}

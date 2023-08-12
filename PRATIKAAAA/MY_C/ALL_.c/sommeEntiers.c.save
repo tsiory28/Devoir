@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+	printf("Somme des n premiers entiers non nuls\n"); 
+///Entrée des données
+	while(n!=0){
+	int i=0,		//l'entier a cumuler
+	    s=123,		//la somme a calculer
+	    n=1;		//la limite de la somme
+///Traitement
+
+	for(i=1;s=0;i++){
+	     s += i;
+}
+
+///sortie des résultats
+		printf("la somme des %d premiers entiers est = %d\n",n,s);
+	return 0;
+		}
+}
